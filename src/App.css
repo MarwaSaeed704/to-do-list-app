@@ -1,0 +1,90 @@
+.App{
+    border: 1px solid #888;
+    margin: 50px auto;
+    padding: 25px ;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #333;
+    /* color: #fff; */
+   
+    
+}
+
+.App h2{
+    color: #fff;
+}
+
+.to-do-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px ;
+   
+}
+
+.no-task{
+    color: #888;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+
+}
+
+.completed{
+    background-color: #ccc;
+    padding: 5px;
+    width: 40%;
+    border-radius: 10px;   
+}
+
+.to-do-container ul {
+    padding: 25px 25px 25px 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.to-do-container ul li {
+    overflow-wrap: break-word;
+    width: 170px;
+    list-style-type: "📝";
+    cursor: pointer;   
+}
+
+.item {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 25px;
+    align-items: center;
+    width: 98%;
+    margin: 5px 0px;
+    background-color: #fff;
+    border-radius: 5px;   
+}
+
+.to-do-container input, .to-do-container button{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #888;
+}
+
+.to-do-container button{
+    background-color: #d8a20de8;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.done{
+    text-decoration: line-through;
+    
+}
+
+
+
+.trash{
+    cursor: pointer;
+}
